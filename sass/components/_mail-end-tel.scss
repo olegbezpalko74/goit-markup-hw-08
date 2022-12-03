@@ -1,0 +1,17 @@
+.mail-icon,
+.tel-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+
+    fill: currentColor;  
+  
+}
+.mail-icon:hover,
+.mail-icon:focus {
+    color: var(--accent-color);
+}
+.tel-icon:hover,
+.tel-icon:focus {
+    color: var(--accent-color);
+}

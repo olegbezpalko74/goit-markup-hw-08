@@ -1,0 +1,30 @@
+.contacts {
+    font-style: normal;
+    margin-top: 20px;
+    
+}
+.contacts .item:not(:last-child) {
+    margin-bottom: 9px;
+
+}
+
+.contacts .link{
+    color:  var(--hero-text-color);
+    background-color: var(--hero-bg-color);
+    text-decoration: none;
+    line-height: 1.71;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+}
+
+}
+
+.contacts .item {
+    color: var(--tel-email-color);
+}

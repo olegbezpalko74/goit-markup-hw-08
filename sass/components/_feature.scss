@@ -1,0 +1,67 @@
+.feature__antenna-icon::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background:  #F5F4FA;
+    margin-bottom: 30px;
+    background-image: url( ../images/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    
+}
+.feature__clock-icon::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background:  #F5F4FA;
+    margin-bottom: 30px;
+    background-image: url(../images/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    
+}
+.feature__diagram-icon::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background:  #F5F4FA;
+    margin-bottom: 30px;
+    background-image:url(../images/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    
+}
+.feature__astronaut-icon::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background:  #F5F4FA;
+    margin-bottom: 30px;
+    background-image:url(../images/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    
+}
+.feature__list {
+    display: flex;
+    gap: 30px;
+}
+.feature__title {
+    margin-bottom: 10px;
+
+
+    font-size: 14px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+.feature__text {
+    color: var(--primary-text-color);
+    line-height: 1.71;
+} 

@@ -1,0 +1,22 @@
+.footer {
+    background-color: var(--hero-bg-color);
+    padding: 60px 0;
+
+    &__container {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    &__logo {
+        color: var(--hero-text-color);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        
+    }
+    &__position {
+        margin-right: 70px;
+    }
+    
+}
+
