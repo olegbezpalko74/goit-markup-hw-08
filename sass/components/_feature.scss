@@ -35,7 +35,7 @@
     
 }
 .feature__astronaut-icon::before {
-    display: block;
+     display: block;
     content: "";
     height: 120px;
     background:  #F5F4FA;
@@ -47,8 +47,21 @@
     
 }
 .feature__list {
-    display: flex;
-    gap: 30px;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        
+    
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+   
+    
+    }
+     gap: 30px;
 }
 .feature__title {
     margin-bottom: 10px;
