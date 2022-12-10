@@ -1,4 +1,11 @@
 .section {
-    padding: 94px 0;
+    padding: 60px 15px;
+    outline: 2px solid teal;
+
+
+    @media screen and (min-width: 1200px) {
+        padding: 94px 0;
+    }
+   
     
     }
