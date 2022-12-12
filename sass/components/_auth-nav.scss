@@ -1,6 +1,11 @@
 .auth-nav {
-    display: flex;
-    margin-left: auto;
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        margin-left: auto;
+    }
+ 
 }
 .auth-nav .item + .item {
     margin-left: 50px;

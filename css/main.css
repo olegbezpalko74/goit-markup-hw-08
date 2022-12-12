@@ -125,6 +125,8 @@ button {
 
 header {
   border-bottom: 1px solid #ECECEC;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 header .container {
@@ -155,10 +157,15 @@ header .container {
 }
 
 .site-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 93px;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .site-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 93px;
+  }
 }
 
 .site-nav .item:not(:last-child) {
@@ -205,10 +212,15 @@ header .container {
 }
 
 .auth-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+  }
 }
 
 .auth-nav .item + .item {
@@ -396,7 +408,6 @@ header .container {
     display: flex;
   }
 }
-
 .feature__title {
   font-size: 14px;
   color: var(--title-text-color);
@@ -490,7 +501,7 @@ header .container {
   border-radius: 0px 0px 4px 4px;
 }
 .team-list__item:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .team-list__item {
