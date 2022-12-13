@@ -50,18 +50,26 @@
  .feature__list {
     gap: 30px;
 
-    @media screen and (min-width: 1200px) {
+
+     @media screen and (min-width: 1200px) {
          display: flex;
-       
+           
         
+     }
+     @media screen and(min-width:768px) {
+        // display: flex;
+        flex-wrap: wrap;
+
     }
 
-    @media screen and (min-width: 768px) {
-     
+}
+
+.feature_item {
+ 
+
+      
         
-    }
-  
-   
+    
 }
 .feature__title {
     font-size: 14px;
