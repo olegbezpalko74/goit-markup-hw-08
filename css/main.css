@@ -136,15 +136,6 @@ header .container {
           align-items: center;
 }
 
-.logo {
-  color: var(--logo-color);
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
-
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,6 +236,15 @@ header .container {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
+}
+
+.logo {
+  color: var(--logo-color);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .mail-icon,

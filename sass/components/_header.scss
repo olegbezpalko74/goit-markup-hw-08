@@ -5,6 +5,136 @@ header {
 }
 
 header .container {
+     display: flex;
+     align-items: center;
+    
+      
+    
+}
+
+
+.main-nav {
     display: flex;
     align-items: center;
+  
+}
+
+.logo {
+    color: var(--logo-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    padding-bottom: 16px;
+    padding-top: 16px;
+   
+}
+.site-nav {
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+    
+
+    // @media screen and (min-width:1200px) {
+    //     display: flex;
+    //     margin-left: 93px;
+        
+    // }
+   
+}
+
+ 
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+
+    color:var(--title-text-color);
+    
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+    position: relative;
+}
+
+
+.current-link::after {
+    position: absolute;
+    left:  0;
+    bottom: 0;
+
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    
+    background:var(--accent-color);
+    border-radius: 2px;  
+    
+}
+
+.auth-nav {
+    display: none;
+
+    // @media screen and (min-width: 1200px) {
+    //     display: flex;
+    //     margin-left: auto;
+    // }
+ 
+}
+.auth-nav .item + .item {
+    margin-left: 50px;
+}
+
+.auth-nav .link {
+    display: flex;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+} 
+.mail-icon,
+.tel-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+
+    fill: currentColor;  
+  
+}
+.mail-icon:hover,
+.mail-icon:focus {
+    color: var(--accent-color);
+}
+.tel-icon:hover,
+.tel-icon:focus {
+    color: var(--accent-color);
 }
