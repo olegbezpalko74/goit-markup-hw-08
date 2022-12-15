@@ -36,11 +36,11 @@ header .container {
     }
     
 
-    // @media screen and (min-width:1200px) {
-    //     display: flex;
-    //     margin-left: 93px;
+     @media screen and (min-width:1200px) {
+        display: flex;
+       margin-left: 93px;
         
-    // }
+     }
    
 }
 
@@ -93,12 +93,12 @@ header .container {
 }
 
 .auth-nav {
-    display: none;
+     display: none;
 
-    // @media screen and (min-width: 1200px) {
-    //     display: flex;
-    //     margin-left: auto;
-    // }
+     @media screen and (min-width: 1200px) {
+        display: flex;
+         margin-left: auto;
+     }
  
 }
 .auth-nav .item + .item {
