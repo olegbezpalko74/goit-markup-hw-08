@@ -211,15 +211,30 @@ header .container {
   border-radius: 2px;
 }
 
-.auth-nav {
-  display: none;
+@media screen and (max-width: 767px) {
+  .auth-nav {
+    display: none;
+  }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .auth-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: inherit;
   }
 }
 
