@@ -104,15 +104,19 @@ header .container {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        margin-left: auto;
         }
         @media screen and (min-width:1200px) {
-        flex-direction: row;
-        gap: inherit;
+         display: flex;
+         flex-direction: row;
+        margin-left: auto;
+       
         }
  
 }
 .auth-nav .item + .item {
-    margin-left: 50px;
+   
+    // margin-left: 50px;
 }
 
 .auth-nav .link {
