@@ -34,7 +34,7 @@ header .container {
 
     display: flex;
     margin-left: 93px;
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:767px) {
         display: none;
     }
     
@@ -116,7 +116,7 @@ header .container {
 }
 .auth-nav .item + .item {
    
-    // margin-left: 50px;
+    //  margin-left: 40px;
 }
 
 .auth-nav .link {
@@ -130,6 +130,7 @@ header .container {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 40px;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
