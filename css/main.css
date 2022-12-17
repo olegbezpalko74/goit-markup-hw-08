@@ -325,7 +325,6 @@ header .container {
 }
 
 .hero__title {
-  width: 360px;
   margin: 0 auto;
   margin-bottom: 30px;
   color: var(--hero-text-color);
@@ -346,6 +345,11 @@ header .container {
     width: 696px;
     font-size: 44px;
     line-height: 1.36;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hero__title {
+    max-width: 360px;
   }
 }
 
